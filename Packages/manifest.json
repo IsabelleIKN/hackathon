@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.interhaptics.core_sdk": "file:C:/Users/Maro/Downloads/Interhaptics_Unity_CoreSDK-master",
+    "com.interhaptics.core_sdk": "file:../Assets/Interhaptics_Unity_CoreSDK-master",
     "com.unity.collab-proxy": "2.11.2",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.18.0",

@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.interhaptics.core_sdk": {
-      "version": "file:C:/Users/Maro/Downloads/Interhaptics_Unity_CoreSDK-master",
+      "version": "file:../Assets/Interhaptics_Unity_CoreSDK-master",
       "depth": 0,
       "source": "local",
       "dependencies": {}
