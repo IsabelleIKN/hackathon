@@ -28,18 +28,21 @@ public class Dough : MonoBehaviour
         {
             hasEgg = true;
             egg = other.gameObject;
+            GameManager.Instance.EggSwitch(hasEgg);
         }
 
         if (other.CompareTag("Butter"))
         {
             hasButter = true;
             butter = other.gameObject;
+            GameManager.Instance.ButterSwitch(hasButter);
         }
 
         if (other.CompareTag("Flour"))
         {
             hasFlour = true;
             flour = other.gameObject;
+            GameManager.Instance.FlourSwitch(hasFlour);
         }
          Debug.Log("Entered trigger: " + other.name);
         CheckRecipe();
