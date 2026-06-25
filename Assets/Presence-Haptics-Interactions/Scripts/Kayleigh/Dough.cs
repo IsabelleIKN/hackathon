@@ -1,18 +1,20 @@
 using UnityEngine;
 
-public class PlateMixer : MonoBehaviour
+public class Dough : MonoBehaviour
 {
     public GameObject dough;
 
     private GameObject egg;
     private GameObject butter;
+    private GameObject flour;
 
     private bool hasEgg;
     private bool hasButter;
+    private bool hasFlour;
 
     private void Start()
     {
-        // Hide dough at the start of the game
+        Debug.Log("PlateMixer started");
         if (dough != null)
         {
             dough.SetActive(false);
@@ -21,6 +23,7 @@ public class PlateMixer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+       
         if (other.CompareTag("Egg"))
         {
             hasEgg = true;
@@ -33,6 +36,12 @@ public class PlateMixer : MonoBehaviour
             butter = other.gameObject;
         }
 
+        if (other.CompareTag("Flour"))
+        {
+            hasFlour = true;
+            flour = other.gameObject;
+        }
+         Debug.Log("Entered trigger: " + other.name);
         CheckRecipe();
     }
 
@@ -49,14 +58,21 @@ public class PlateMixer : MonoBehaviour
             hasButter = false;
             butter = null;
         }
+
+        if (other.CompareTag("Flour"))
+        {
+            hasFlour = false;
+            flour = null;
+        }
     }
 
     private void CheckRecipe()
     {
-        if (hasEgg && hasButter)
+        if (hasEgg && hasButter && hasFlour)
         {
             egg.SetActive(false);
             butter.SetActive(false);
+            flour.SetActive(false);
 
             dough.SetActive(true);
         }
