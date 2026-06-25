@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10c0a24a2185d449a9151c5cb17b89f, type: 3}
+  m_Name: 09-PHap_Squeeze100
+  m_EditorClassIdentifier: 
+  h_hapticEffectType: 10
+  h_effectDuration: 0.25
+  h_editorHjifFilePath: Assets/StreamingAssets/TranscodingOutput/09-SG_Squeeze100.hjif
+  h_serializedLinks:
+  - '{"ImplementationID":"PHap_SenseGlove","EditorFileLink":"Assets/SG_Experiment/Resources/09-SG_Squeeze100.asset","ExtraData":""}'
+  h_fileLinks: []
+  bodyPartFilter: 0
+  bodyPartSelection: 0
+  originalFile: {fileID: 11400000, guid: 1c73b20d85fe283499349745b438414f, type: 2}

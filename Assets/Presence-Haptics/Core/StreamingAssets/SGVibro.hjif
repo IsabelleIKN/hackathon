@@ -1,0 +1,75 @@
+{
+  "version": "CRM3.2",
+  "profile": "Main",
+  "level": 1,
+  "date": "05/12/2024",
+  "description": "",
+  "timescale": 1000,
+  "avatars": [],
+  "perceptions": [
+    {
+      "id": 621,
+      "avatar_id": -1,
+      "description": "",
+      "perception_modality": "Vibrotactile",
+      "reference_devices": [
+        {
+          "id": 42069,
+          "name": "SenseGlove Nova 2.0"
+        }
+      ],
+      "effect_library": [],
+      "channels": [
+        {
+          "id": -1,
+          "description": "",
+          "gain": 1.0,
+          "mixing_weight": 1.0,
+          "body_part_mask": 1,
+          "bands": [
+            {
+              "band_type": "Transient",
+              "curve_type": "Linear",
+              "block_length": 0.0,
+              "lower_frequency_limit": 10,
+              "upper_frequency_limit": 500,
+              "effects": [
+                {
+                  "effect_type": "Basis",
+                  "phase": 0.0,
+                  "base_signal": "Sine",
+                  "keyframes": [
+                    {
+                      "relative_position": 0,
+                      "amplitude_modulation": 0.0,
+                      "frequency_modulation": 180
+                    },
+                    {
+                      "relative_position": 0,
+                      "amplitude_modulation": 1.0
+                    },
+                    {
+                      "relative_position": 1000,
+                      "amplitude_modulation": 1.0
+                    },
+                    {
+                      "relative_position": 1000,
+                      "amplitude_modulation": 0.0,
+                      "frequency_modulation": 180
+                    },
+                    {
+                      "relative_position": 1000,
+                      "amplitude_modulation": 0.0
+                    }
+                  ],
+                  "position": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "syncs": []
+}

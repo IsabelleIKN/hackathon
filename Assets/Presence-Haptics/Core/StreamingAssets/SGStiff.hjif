@@ -1,0 +1,64 @@
+{
+  "version": "CRM3.2",
+  "profile": "Main",
+  "level": 1,
+  "date": "05/12/2024",
+  "description": "",
+  "timescale": 1000,
+  "avatars": [],
+  "perceptions": [
+    {
+      "id": 621,
+      "avatar_id": -1,
+      "description": "",
+      "perception_modality": "Stiffness",
+      "reference_devices": [
+        {
+          "id": 42069,
+          "name": "SenseGlove Nova 2.0"
+        }
+      ],
+      "effect_library": [],
+      "channels": [
+        {
+          "id": -1,
+          "description": "",
+          "gain": 1.0,
+          "mixing_weight": 1.0,
+          "body_part_mask": 1,
+          "bands": [
+            {
+              "band_type": "Transient",
+              "curve_type": "Linear",
+              "block_length": 0.0,
+              "effects": [
+                {
+                  "effect_type": "Basis",
+                  "keyframes": [
+                    {
+                      "relative_position": 0.0,
+                      "amplitude_modulation": 0.0
+                    },
+                    {
+                      "relative_position": 202.0,
+                      "amplitude_modulation": 0.0
+                    },
+                    {
+                      "relative_position": 205.0,
+                      "amplitude_modulation": 1.0
+                    },
+                    {
+                      "relative_position": 1000.0,
+                      "amplitude_modulation": 1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "syncs": []
+}

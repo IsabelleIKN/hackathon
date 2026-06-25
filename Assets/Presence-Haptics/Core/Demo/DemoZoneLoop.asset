@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10c0a24a2185d449a9151c5cb17b89f, type: 3}
+  m_Name: DemoZoneLoop
+  m_EditorClassIdentifier: 
+  h_hapticEffectType: 7
+  h_effectDuration: 0.579
+  h_editorHjifFilePath: Assets/StreamingAssets/TranscodingOutput/SGDemoLoop.hjif
+  h_serializedLinks:
+  - '{"ImplementationID":"PHap_SenseGlove","EditorFileLink":"Assets/Presence-Haptics/Core/Resources/SGDemoLoop.asset","ExtraData":""}'
+  - '{"ImplementationID":"PHap_Interhaptics","EditorFileLink":"Assets/Resources/TranscodingOutput/SGDemoLoop.haps","ExtraData":""}'
+  h_fileLinks:
+  - ImplementationID: PHap_SenseGlove
+    EditorFileLink: Assets/Presence-Haptics/Core/Resources/SGDemoLoop.asset
+    ExtraData: 
+  bodyPartFilter: 0
+  bodyPartSelection: 0
+  originalFile: {fileID: 11400000, guid: 45b572205fbfc7a488ca44cb7b130f0a, type: 2}

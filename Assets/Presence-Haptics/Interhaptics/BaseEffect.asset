@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10c0a24a2185d449a9151c5cb17b89f, type: 3}
+  m_Name: BaseEffect
+  m_EditorClassIdentifier: 
+  h_hapticEffectType: 7
+  h_effectDuration: 1
+  h_editorHjifFilePath: Assets/StreamingAssets/TranscodingOutput/test_hapsFile.hjif
+  h_serializedLinks:
+  - '{"ImplementationID":"PHap_Interhaptics","EditorFileLink":"Assets/Presence-Haptics/Interhaptics/Resources/test_hapsFile.haps","ExtraData":""}'
+  - '{"ImplementationID":"PHap_SenseGlove","EditorFileLink":"Assets/Resources/TranscodingOutput/test_hapsFile.asset","ExtraData":""}'
+  h_fileLinks:
+  - ImplementationID: PHap_Interhaptics
+    EditorFileLink: Assets/Presence-Haptics/Interhaptics/Resources/test_hapsFile.haps
+    ExtraData: 
+  - ImplementationID: PHap_SenseGlove
+    EditorFileLink: Assets/Resources/TranscodingOutput/test_hapsFile.asset
+    ExtraData: 
+  bodyPartFilter: 1
+  originalFile: {fileID: -6750239444755058063, guid: 7e1099197c131ad448104ee139b6b40d, type: 3}

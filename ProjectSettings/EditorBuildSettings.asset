@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Presence-Haptics/Core/Demo/Sample.unity
+    guid: 7e1a0361b0ba13b4cb4d1a1a07df5c5f
+  - enabled: 0
+    path: Assets/Presence-Haptics/Core/Demo/Haptics-XR-Demo.unity
+    guid: d3d2ed738604f3a488abe84320a82b29
+  - enabled: 0
+    path: Assets/Video.unity
+    guid: 18d4498a32f7cdf428283e6c3c0dbfe1
+  - enabled: 1
+    path: Assets/Presence-Haptics/Core/Demo/Haptics-API-Demo.unity
+    guid: 07d4b6b6924dd72499dbc5e1a985db12
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2e78c206110050c448592ba19035b2fa, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b47374cdd05a6f643b8210fe153e6dbf, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7c987b66ce3b0ad42beac4f0a94847b7, type: 2}
+  m_UseUCBPForAssetBundles: 0

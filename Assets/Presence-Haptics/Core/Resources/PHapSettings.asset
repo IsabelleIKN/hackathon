@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d87f42a9e46ae4eae3ce7b0168885c, type: 3}
+  m_Name: PHapSettings
+  m_EditorClassIdentifier: PresenceHaptics::Presence.PHap_Settings
+  implementations:
+  - {fileID: 11400000, guid: 60724f0fdca2b83449a10c78302f969c, type: 2}
+  - {fileID: 11400000, guid: 48bf4774c5c71d246b1d0f2f4dbb44b5, type: 2}
+  - {fileID: 11400000, guid: 792a65228efb5f34aa4e4f0098eba8d3, type: 2}

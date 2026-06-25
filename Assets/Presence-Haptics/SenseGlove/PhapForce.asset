@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10c0a24a2185d449a9151c5cb17b89f, type: 3}
+  m_Name: PhapForce
+  m_EditorClassIdentifier: 
+  h_hapticEffectType: 10
+  h_effectDuration: 1
+  h_editorHjifFilePath: Assets/StreamingAssets/TranscodingOutput/SGForce.hjif
+  h_serializedLinks:
+  - '{"ImplementationID":"PHap_SenseGlove","EditorFileLink":"Assets/Presence-Haptics/SenseGlove/Resources/SGForce.asset","ExtraData":""}'
+  h_fileLinks: []
+  bodyPartFilter: 0
+  bodyPartSelection: 0
+  originalFile: {fileID: 11400000, guid: c585a7702f7664b418e289cf1576143e, type: 2}
