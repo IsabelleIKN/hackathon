@@ -37,19 +37,19 @@
                   "keyframes": [
                     {
                       "relative_position": 0.0,
-                      "amplitude_modulation": 0.0
-                    },
-                    {
-                      "relative_position": 142.0,
-                      "amplitude_modulation": 0.0
-                    },
-                    {
-                      "relative_position": 218.0,
                       "amplitude_modulation": 1.0
+                    },
+                    {
+                      "relative_position": 172.0,
+                      "amplitude_modulation": 1.0
+                    },
+                    {
+                      "relative_position": 179.0,
+                      "amplitude_modulation": 0.0
                     },
                     {
                       "relative_position": 1000.0,
-                      "amplitude_modulation": 1.0
+                      "amplitude_modulation": 0.0
                     }
                   ]
                 }
