@@ -9,7 +9,8 @@ public class OvenDial : MonoBehaviour
 
     private float timer = 0f;
     public bool timerOn = false;
-
+    public GameObject dough;
+    public GameObject bread;
     void Start()
     {
         gauge.fillAmount = temperature;
@@ -33,12 +34,15 @@ public class OvenDial : MonoBehaviour
     {
         if(timerOn)
         {
-            timer += 0.1f * Time.deltaTime;
+            timer += 0.2f * Time.deltaTime;
             timerVis.fillAmount = timer;
 
             if(timer >= 1)
             {
                 Debug.Log("Timer done");
+                dough.SetActive(false);
+                bread.SetActive(true);
+
             }
         }
     }

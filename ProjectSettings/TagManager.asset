@@ -7,6 +7,7 @@ TagManager:
   - Egg
   - Butter
   - Flour
+  - Dough
   layers:
   - Default
   - TransparentFX
